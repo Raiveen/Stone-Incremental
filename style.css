@@ -22,3 +22,13 @@ body {
     top: 0;
     right: 0;
 }
+#rebirth {
+  width: 20%;
+  height: 25%;
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+.cbuyable {
+    width: 5%;
+}

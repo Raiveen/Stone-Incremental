@@ -10,7 +10,7 @@
 </head>
 <body>
   <div id="parent">
-    <p id="stonemined">0 Stone</p>
+    <p id="stonemined" style="font-weight:bold">0 Stone</p>
     <p id="stoneminedpersecond">0 Stone/s</p>
   </div>
   <div id="parent">  
@@ -22,6 +22,18 @@
     <p id="stoneBoostUpgradeInfo"></p>
     <button id="stoneBoostUpgradeBtn" onclick="buyUpgrade('stoneBoost') " style="display: none;">Cost: 500</button>
     <button id="stoneBoostUpgradeMaxBtn" onclick="buyMaxUpgrade('stoneBoost')" style="display: none;">Buy Max</button>
+  </div>
+  <div id="parent">
+    <span id="copper" style="font-weight:bold;"></span>
+    <span id="coppergainedpersecond"></span>
+  </div>
+  <div id="parent">
+    <button id="rebirth" onclick="rebirthAction()" style="display:none;">Rebirth</button>
+  </div>
+  <div id="parent">
+    <button class="cbuyable" id="buyable0" onclick="buyRebirthBuyable(0)" style="display:none;">Buyable 1</button>
+    <button class="cbuyable" id="buyable1" onclick="buyRebirthBuyable(1)" style="display:none;">Buyable 2</button>
+    <button class="cbuyable" id="buyable2" onclick="buyRebirthBuyable(2)" style="display:none;">Buyable 3</button>
   </div>
     
     <button id="reset" onclick="reset()">Reset</button>
